@@ -1,0 +1,330 @@
+/* fraunces-900 - latin */
+
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''), url('../fonts/fraunces-v24-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/fraunces-v24-latin-900.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* barlow-regular - latin */
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/barlow-v12-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* barlow-500 - latin */
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''), url('../fonts/barlow-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/barlow-v12-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* barlow-600 - latin */
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''), url('../fonts/barlow-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/barlow-v12-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* barlow-700 - latin */
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''), url('../fonts/barlow-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/barlow-v12-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* GENERAL */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow", "Arial", sans-serif;
+}
+
+
+/* CONTAINER */
+
+.container {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/* STICKY-FOOTER */
+
+.site-main {
+    flex-grow: 1;
+}
+
+.site-header {
+    padding: 44px 0;
+}
+
+.site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav__list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.site-nav__item:nth-child(2) {
+    margin-right: 32px;
+    margin-left: 33px;
+}
+
+.site-nav__link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.hero-section {
+    margin-bottom: 168px;
+}
+
+.hero-section__wrapper {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1220px;
+    height: 450px;
+    padding-top: 137px;
+    padding-bottom: 137px;
+    padding-left: 85px;
+}
+
+.hero-section__title {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+}
+
+.hero-section__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    width: 445px;
+}
+
+.commitment-section {
+    margin-bottom: 244px;
+}
+
+.commitment-section__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.commit-section__end-wrapper {
+    margin-left: 125px;
+}
+
+.commitment-section__title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.commitment-section__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.quality-section {
+    margin-bottom: 168px;
+}
+
+.quality-section__wrapper {
+    display: flex;
+    background: #2C343E;
+    border-radius: 10px;
+    position: relative;
+}
+
+.quality-section__start-wrapper {
+    padding-top: 88px;
+    padding-left: 85px;
+    margin-bottom: 168px;
+}
+
+.quality-section__title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality-section__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 540px;
+}
+
+.quality-section__img {
+    position: absolute;
+    object-fit: cover;
+    object-position: bottom;
+    left: 380px;
+    top: 4500px;
+    right: 100px;
+    border-radius: 20px;
+}
+
+.headquarters-section__title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+}
+
+.headquarters-section__list {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+.headquarters-section__item {
+    margin-left: 108px;
+}
+
+.headquarters-section__mini-title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.headquarters-section__tex {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.site-footer__wrapper {
+    display: flex;
+    align-items: center;
+    background: #2C343E;
+    padding: 47px;
+    margin-top: 168px;
+    margin-bottom: 88px;
+}
+
+.site-footer__link {
+    color: #fff;
+}
+
+.site-footer__nav-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 103px;
+}
+
+.site-footer__nav-item {
+    margin-left: 33px;
+}
+
+.site-footer__nav-link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #83888F;
+}
+
+.site-footer__network-list {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    width: 120px;
+    margin-left: auto;
+}
+
+.site-footer__network-item {
+    margin-right: 24px;
+}
