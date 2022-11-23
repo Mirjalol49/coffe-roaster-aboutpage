@@ -145,16 +145,15 @@ body {
 .hero-section__wrapper {
     background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 1220px;
-    height: 450px;
+    background-size: cover;
+    border-radius: 10px;
     padding-top: 137px;
     padding-bottom: 137px;
     padding-left: 85px;
 }
 
 .hero-section__title {
-    font-family: 'Fraunces 9pt';
+    font-family: 'Fraunces';
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
@@ -177,6 +176,7 @@ body {
 .commitment-section__wrapper {
     display: flex;
     align-items: center;
+    padding-left: 125px;
 }
 
 .commit-section__end-wrapper {
@@ -184,7 +184,7 @@ body {
 }
 
 .commitment-section__title {
-    font-family: 'Fraunces 9pt';
+    font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -219,7 +219,7 @@ body {
 }
 
 .quality-section__title {
-    font-family: 'Fraunces 9pt';
+    font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -245,19 +245,21 @@ body {
 }
 
 .headquarters-section__title {
-    font-family: 'Fraunces 9pt';
+    font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
     color: #83888F;
     margin-bottom: 72px;
+    margin-left: 165px;
 }
 
 .headquarters-section__list {
     display: flex;
     padding-left: 0;
     list-style: none;
+    margin-left: 165px;
 }
 
 .headquarters-section__item {
@@ -265,7 +267,7 @@ body {
 }
 
 .headquarters-section__mini-title {
-    font-family: 'Fraunces 9pt';
+    font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
