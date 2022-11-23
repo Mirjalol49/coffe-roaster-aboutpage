@@ -237,13 +237,10 @@ body {
     width: 540px;
 }
 
-.quality-section__img {
+.qulity-section__img {
     position: absolute;
-    object-fit: cover;
-    object-position: bottom;
-    left: 380px;
-    top: 4500px;
-    right: 100px;
+    top: -90px;
+    right: 60px;
     border-radius: 20px;
 }
 
